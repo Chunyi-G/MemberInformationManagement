@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Customer Information</string>
+    <string name="new_customer_information_label">New Customer Information</string>
+    <string name="member_list_label">Member List</string>
+    <string name="first_name_label">First name:</string>
+    <string name="last_name_label">Last name:</string>
+    <string name="contact_no_label">Contact number:</string>
+    <string name="email_label">Email:</string>
+    <string name="member_type_label">Member Type:</string>
+    <string name="address_label">Address:</string>
+    <string name="save_button">Save</string>
+    <string name="view_button">List All Member</string>
+    <string name="add_button">Add New Member</string>
+    <string name="contact_info_label">Contact information</string>
+    <string name="contact_detail_label">Contact information</string>
+    <string name="customer_detail_label">Customer Detail</string>
+</resources>

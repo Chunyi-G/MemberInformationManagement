@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:paddingRight="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_fName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textColor="#3F51B5"
+        tools:text="First Name"/>
+
+    <TextView
+        android:id="@+id/tv_lName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_fName"
+        android:layout_toRightOf="@+id/tv_fName"
+        android:paddingLeft="5dp"
+        android:paddingTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textAllCaps="true"
+        tools:text="Last Name"/>
+
+    <TextView
+        android:id="@+id/tv_Contact_Info_label"
+        android:text="@string/contact_detail_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/tv_fName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tv_Contact_Label"
+        android:text="@string/contact_no_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_Contact_Info_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tv_ContactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Contact_Label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:text="Contact no"/>
+
+
+    <TextView
+        android:id="@+id/tv_Email_Label"
+        android:text="@string/email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_ContactNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tv_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Email_Label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:text="Email"/>
+
+    <TextView
+        android:id="@+id/tv_Customer_Detail_label"
+        android:text="@string/customer_detail_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/tv_Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tv_Address_Label"
+        android:text="@string/address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_Customer_Detail_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tv_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Address_Label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="2dp"
+        tools:text="Address"/>
+
+    <TextView
+        android:id="@+id/tv_MemberType_Label"
+        android:text="@string/member_type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_Address"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tv_MemberType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_MemberType_Label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="2dp"
+        tools:text="MemberType"
+        android:background="@drawable/textlines"/>
+</RelativeLayout>
